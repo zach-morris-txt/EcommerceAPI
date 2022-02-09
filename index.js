@@ -20,6 +20,7 @@ mongoose
     console.log(err);
   });
 
+
 app.use(cors());
 app.use(express.json());
 app.use("/api/auth", authRoute);
@@ -29,17 +30,12 @@ app.use("/api/carts", cartRoute);
 app.use("/api/orders", orderRoute);
 app.use("/api/checkout", stripeRoute);
 
-// if(process.env.NODE_ENV === "production") {
-//   app.use(express.static(path.join(__dirname, "client/build")))
 
-//   app.get('*', (req, res) => {
-//     res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'))
-//   })
-// } else {
-//   app.get('/', (req, res) => {
-//     res.send("API running")
-//   })
-// }
+app.use(express.static(path.join(__dirname, "client")))
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, "client/build", "index.html")) //<frontend folder name>/"build"
+})
 
 
 app.listen(process.env.PORT || 5000, () => {
