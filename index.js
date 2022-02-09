@@ -3,12 +3,13 @@ const app = express();
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 dotenv.config();
-const userRoute = require("./routes/user");
-const authRoute = require("./routes/auth");
-const productRoute = require("./routes/product");
-const cartRoute = require("./routes/cart");
-const orderRoute = require("./routes/order");
-const stripeRoute = require("./routes/stripe");
+const path = require("path")
+const userRoute = require("./server/routes/user");
+const authRoute = require("./server/routes/auth");
+const productRoute = require("./server/routes/product");
+const cartRoute = require("./server/routes/cart");
+const orderRoute = require("./server/routes/order");
+const stripeRoute = require("./server/routes/stripe");
 const cors = require("cors");
 
 
@@ -27,6 +28,19 @@ app.use("/api/products", productRoute);
 app.use("/api/carts", cartRoute);
 app.use("/api/orders", orderRoute);
 app.use("/api/checkout", stripeRoute);
+
+// if(process.env.NODE_ENV === "production") {
+//   app.use(express.static(path.join(__dirname, "client/build")))
+
+//   app.get('*', (req, res) => {
+//     res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'))
+//   })
+// } else {
+//   app.get('/', (req, res) => {
+//     res.send("API running")
+//   })
+// }
+
 
 app.listen(process.env.PORT || 5000, () => {
   console.log("Backend server is running!");
