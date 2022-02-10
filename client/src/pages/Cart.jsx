@@ -178,7 +178,9 @@ const Cart = () => {
         history.push("/success", {
           data: res.data,
           products: cart, });
-      } catch {}
+      } catch (err) {
+        console.log(err)
+      }
     };
     stripeToken && cart.total >= 1 && makeRequest();
   }, [stripeToken, cart.total, history]);
