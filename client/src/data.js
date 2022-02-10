@@ -1,7 +1,7 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://i.ibb.co/XsdmR2c/1.png",
+      img: "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Fsandals%2Fsandals_PNG9699.png&f=1&nofb=1",
       title: "SUMMER SALE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "f5fafd",
@@ -46,7 +46,7 @@ export const sliderItems = [
   export const popularProducts = [
     {
       id:1,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+      img:"https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Frlv.zcache.com%2Flast_person_to_get_laid_off_turn_off_the_lights_tshirt-p235286260471565464b777r_400.jpg&f=1&nofb=1",
     },
     {
       id:2,
