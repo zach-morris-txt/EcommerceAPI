@@ -47,7 +47,6 @@ const Circle = styled.div`
 `;
 
 const Image = styled.img`
-  width: 90%;
   height: 75%;
   z-index: 2;
 `;

@@ -178,9 +178,7 @@ const Cart = () => {
         history.push("/success", {
           data: res.data,
           products: cart, });
-      } catch (err) {
-        console.log(err)
-      }
+      } catch {}
     };
     stripeToken && cart.total >= 1 && makeRequest();
   }, [stripeToken, cart.total, history]);
@@ -203,6 +201,7 @@ const Cart = () => {
             {cart.products.map((product) => (
               <Product>
                 <ProductDetail>
+                  <Image src={product.img} />
                   <Details>
                     <ProductName>
                       <b>Product:</b> {product.title}
