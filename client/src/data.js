@@ -1,24 +1,24 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://i.ibb.co/XsdmR2c/1.png",
-      title: "SUMMER SALE",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "f5fafd",
+      img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F91wiGaOVgxL._AC_UL1500_.jpg&f=1&nofb=1",
+      title: "WINTER SALES",
+      desc: "DON'T COMPROMISE YOUR STYLE! GET 30% OFF FOR NEW ARRIVALS.",
+      bg: "223d82",
     },
     {
       id: 2,
-      img: "https://i.ibb.co/DG69bQ4/2.png",
-      title: "AUTUMN COLLECTION",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "fcf1ed",
+      img: "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.groundreport.com%2Fwp-content%2Fuploads%2F2016%2F06%2FLeather-Jackets-For-Women.jpg&f=1&nofb=1",
+      title: "LEATHER SALES",
+      desc: "DEALS ON GENUINE & FAUX LEATHERS!",
+      bg: "452282",
     },
     {
       id: 3,
-      img: "https://i.ibb.co/cXFnLLV/3.png",
-      title: "LOUNGEWEAR LOVE",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "fbf0f4",
+      img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.stack.imgur.com%2FguBki.jpg&f=1&nofb=1",
+      title: "GEAR SALES",
+      desc: "REFRESH YOUR LOOK AND SAVE DOING IT WITH OUR DEALS ON BOOTS, GLOVES, HELMETS!",
+      bg: "228267",
     },
   ];
 
