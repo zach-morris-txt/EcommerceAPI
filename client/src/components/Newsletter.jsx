@@ -3,8 +3,8 @@ import styled from "styled-components";
 import { mobile } from "../responsive";
 
 const Container = styled.div`
-  height: 60vh;
-  background-color: #fcf5f5;
+  height: 40vh;
+  background-color: #82222f;
   display: flex;
   align-items: center;
   justify-content: center;
