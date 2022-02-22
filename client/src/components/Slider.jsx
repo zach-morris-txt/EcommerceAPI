@@ -48,12 +48,15 @@ const Slide = styled.div`
 `;
 
 const ImgContainer = styled.div`
+  display: flex; 
+  align-items: center;
+  justify-content: center;
   height: 100%;
   flex: 1;
 `;
 
 const Image = styled.img`
-  height: 80%;
+  height: 96%;
 `;
 
 const InfoContainer = styled.div`
@@ -75,7 +78,7 @@ const Desc = styled.p`
 const Button = styled.button`
   padding: 10px;
   font-size: 20px;
-  background-color: transparent;
+  background-color: white;
   cursor: pointer;
 `;
 

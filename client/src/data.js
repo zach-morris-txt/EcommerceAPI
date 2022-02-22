@@ -8,7 +8,7 @@ export const sliderItems = [
     },
     {
       id: 2,
-      img: "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.groundreport.com%2Fwp-content%2Fuploads%2F2016%2F06%2FLeather-Jackets-For-Women.jpg&f=1&nofb=1",
+      img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.gLCrogY_zC2bSq-BGtiS9gHaJB%26pid%3DApi&f=1",
       title: "LEATHER SALES",
       desc: "DEALS ON GENUINE & FAUX LEATHERS!",
       bg: "452282",
