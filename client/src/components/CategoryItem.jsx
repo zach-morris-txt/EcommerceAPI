@@ -5,7 +5,7 @@ import { mobile } from "../responsive";
 const Container = styled.div`
   flex: 1;
   margin: 3px;
-  width: 22%;
+  width: 23vw;
   height: 70vh;
   position: relative;
 `;
@@ -22,13 +22,13 @@ const Info = styled.div`
   position: absolute;
   top: 0;
   left: 0;
-  width: 92%;
-  height: 36%;
+  width: 94%;
+  height: 42%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0,0,0,.78);
+  background-color: rgba(0,0,0,.6);
 `;
 
 const Title = styled.h1`
@@ -37,7 +37,7 @@ const Title = styled.h1`
 `;
 
 const Button = styled.button`
-    top: 70%;
+    top: 84%;
     border:none;
     padding: 10px;
     background-color: white;
@@ -49,7 +49,7 @@ const Button = styled.button`
 const CategoryItem = ({ item }) => {
   return (
     <Container>
-      <Link to={`/products/${item.cat}`}>
+      <Link to={`/products/${item.cat}`} stye={{display: "flex", alignItem: "center", justifyContent: "center"}}>
       <Image src={item.img} />
       <Info>
         <Title>{item.title}</Title>

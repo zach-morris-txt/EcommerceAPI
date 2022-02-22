@@ -15,7 +15,7 @@ export const sliderItems = [
     },
     {
       id: 3,
-      img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.stack.imgur.com%2FguBki.jpg&f=1&nofb=1",
+      img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.youngchoppers.com%2F2020%2F04%2Fbell_revolver_evo_helmet.jpg&f=1&nofb=1",
       title: "GEAR SALES",
       desc: "REFRESH YOUR LOOK AND SAVE DOING IT WITH OUR DEALS ON BOOTS, GLOVES, HELMETS!",
       bg: "823422",

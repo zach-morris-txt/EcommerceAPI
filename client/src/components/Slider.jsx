@@ -6,7 +6,7 @@ import { mobile } from "../responsive";
 
 const Container = styled.div`
   width: 100%;
-  height: 89vh;
+  height: 86vh;
   display: flex;
   position: relative;
   overflow: hidden;
@@ -50,7 +50,6 @@ const Slide = styled.div`
 const ImgContainer = styled.div`
   display: flex; 
   align-items: center;
-  justify-content: center;
   height: 100%;
   flex: 1;
 `;
