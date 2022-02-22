@@ -8,20 +8,20 @@ const Container = styled.div`
   justify-content: center;
   flex: 1;
   margin: 3px;
-  width: 23vw;
-  height: 50vh;
   position: relative;
 `;
 
 const Image = styled.img`
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: fill;
   ${mobile({ height: "20vh" })}
 
 `;
 
 const Info = styled.div`
+  display: flex;
+  justify-content: center;
   position: absolute;
   left: 0;
   width: 94%;
@@ -31,11 +31,12 @@ const Info = styled.div`
 
 const Title = styled.h1`
     color:white;
-    margin: 0px 0px 20px 2px;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
 `;
 
 const Button = styled.button`
-    bottom: 12px;
+    bottom: 0;
     border:none;
     padding: 10px;
     background-color: white;

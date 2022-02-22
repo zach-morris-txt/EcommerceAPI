@@ -1,9 +1,9 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F91wiGaOVgxL._AC_UL1500_.jpg&f=1&nofb=1",
-      title: "WINTER SALES",
-      desc: "DON'T COMPROMISE YOUR STYLE! GET 30% OFF FOR NEW ARRIVALS.",
+      img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.youngchoppers.com%2F2020%2F04%2Fbell_revolver_evo_helmet.jpg&f=1&nofb=1",
+      title: "GEAR SALES",
+      desc: "REFRESH YOUR LOOK AND SAVE DOING IT WITH OUR DEALS ON BOOTS, GLOVES, HELMETS!",
       bg: "75232a",
     },
     {
@@ -11,14 +11,14 @@ export const sliderItems = [
       img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.gLCrogY_zC2bSq-BGtiS9gHaJB%26pid%3DApi&f=1",
       title: "LEATHER SALES",
       desc: "DEALS ON GENUINE & FAUX LEATHERS!",
-      bg: "752353",
+      bg: "753323",
     },
     {
       id: 3,
-      img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.youngchoppers.com%2F2020%2F04%2Fbell_revolver_evo_helmet.jpg&f=1&nofb=1",
-      title: "GEAR SALES",
-      desc: "REFRESH YOUR LOOK AND SAVE DOING IT WITH OUR DEALS ON BOOTS, GLOVES, HELMETS!",
-      bg: "753323",
+      img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F91wiGaOVgxL._AC_UL1500_.jpg&f=1&nofb=1",
+      title: "WINTER SALES",
+      desc: "DON'T COMPROMISE YOUR STYLE! GET 30% OFF FOR NEW ARRIVALS.",
+      bg: "233175",
     },
   ];
 
