@@ -9,34 +9,29 @@ const Container = styled.div`
   flex: 1;
   margin: 3px;
   width: 23vw;
-  height: 70vh;
+  height: 50vh;
   position: relative;
 `;
 
 const Image = styled.img`
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   ${mobile({ height: "20vh" })}
 
 `;
 
 const Info = styled.div`
   position: absolute;
-  top: 0;
   left: 0;
   width: 94%;
   height: 42%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   background-color: rgba(0,0,0,.6);
 `;
 
 const Title = styled.h1`
     color:white;
-    margin-bottom: 20px;
+    margin: 0px 0px 20px 2px;
 `;
 
 const Button = styled.button`

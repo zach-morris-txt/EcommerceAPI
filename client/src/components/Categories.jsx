@@ -10,15 +10,21 @@ const Container = styled.div`
   margin: 32px 0px 32px 0px;
   justify-content: space-between;
   ${mobile({ padding: "0px", flexDirection:"column" })}
-
 `;
+
+const Container = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+`
 
 const Categories = () => {
   return (
     <Container>
-      {categories.map((item) => (
-        <CategoryItem item={item} key={item.id} />
-      ))}
+      <Item>
+        {categories.map((item) => (
+          <CategoryItem item={item} key={item.id} />
+        ))}
+      </Item>
     </Container>
   );
 };
