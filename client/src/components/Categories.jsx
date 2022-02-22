@@ -12,7 +12,7 @@ const Container = styled.div`
   ${mobile({ padding: "0px", flexDirection:"column" })}
 `;
 
-const Container = styled.div`
+const Item = styled.div`
   display: flex;
   flex-wrap: wrap;
 `
