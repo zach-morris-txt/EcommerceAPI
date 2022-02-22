@@ -3,6 +3,9 @@ import styled from "styled-components";
 import { mobile } from "../responsive";
 
 const Container = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex: 1;
   margin: 3px;
   width: 23vw;
@@ -37,7 +40,7 @@ const Title = styled.h1`
 `;
 
 const Button = styled.button`
-    top: 84%;
+    bottom: 12px;
     border:none;
     padding: 10px;
     background-color: white;

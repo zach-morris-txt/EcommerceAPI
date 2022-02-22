@@ -8,7 +8,7 @@ const Container = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.racing5.cl%2Fwp-content%2Fuploads%2F2020%2F11%2F16043333375_g5.jpg&f=1&nofb=1")
       center;
   background-size: cover;
   display: flex;
@@ -49,7 +49,7 @@ const Button = styled.button`
   width: 40%;
   border: none;
   padding: 15px 20px;
-  background-color: teal;
+  background-color: #75232a;
   color: white;
   cursor: pointer;
 `;
