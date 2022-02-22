@@ -42,7 +42,7 @@ const Input = styled.input`
 const Button = styled.button`
   flex: 1;
   border: none;
-  background-color: teal;
+  background-color: #693138;
   color: white;
 `;
 
@@ -50,9 +50,9 @@ const Newsletter = () => {
   return (
     <Container>
       <Title>Newsletter</Title>
-      <Desc>Get timely updates from your favorite products.</Desc>
+      <Desc>Get timely updates on your favorite products.</Desc>
       <InputContainer>
-        <Input placeholder="Your email" />
+        <Input placeholder="Your Email" />
         <Button>
           <Send />
         </Button>

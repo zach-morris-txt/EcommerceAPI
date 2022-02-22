@@ -5,6 +5,7 @@ import { mobile } from "../responsive";
 const Container = styled.div`
   flex: 1;
   margin: 3px;
+  width: 22%;
   height: 70vh;
   position: relative;
 `;
@@ -21,12 +22,13 @@ const Info = styled.div`
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 92%;
+  height: 36%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: rgba(0,0,0,.78);
 `;
 
 const Title = styled.h1`
@@ -35,6 +37,7 @@ const Title = styled.h1`
 `;
 
 const Button = styled.button`
+    top: 70%;
     border:none;
     padding: 10px;
     background-color: white;

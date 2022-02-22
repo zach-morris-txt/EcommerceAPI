@@ -4,21 +4,21 @@ export const sliderItems = [
       img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F91wiGaOVgxL._AC_UL1500_.jpg&f=1&nofb=1",
       title: "WINTER SALES",
       desc: "DON'T COMPROMISE YOUR STYLE! GET 30% OFF FOR NEW ARRIVALS.",
-      bg: "223d82",
+      bg: "82222f",
     },
     {
       id: 2,
       img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.gLCrogY_zC2bSq-BGtiS9gHaJB%26pid%3DApi&f=1",
       title: "LEATHER SALES",
       desc: "DEALS ON GENUINE & FAUX LEATHERS!",
-      bg: "452282",
+      bg: "82225f",
     },
     {
       id: 3,
       img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.stack.imgur.com%2FguBki.jpg&f=1&nofb=1",
       title: "GEAR SALES",
       desc: "REFRESH YOUR LOOK AND SAVE DOING IT WITH OUR DEALS ON BOOTS, GLOVES, HELMETS!",
-      bg: "228267",
+      bg: "823422",
     },
   ];
 

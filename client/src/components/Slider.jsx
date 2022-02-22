@@ -6,7 +6,7 @@ import { mobile } from "../responsive";
 
 const Container = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 89vh;
   display: flex;
   position: relative;
   overflow: hidden;
@@ -56,7 +56,7 @@ const ImgContainer = styled.div`
 `;
 
 const Image = styled.img`
-  height: 96%;
+  height: 100%;
 `;
 
 const InfoContainer = styled.div`
@@ -69,6 +69,7 @@ const Title = styled.h1`
 `;
 
 const Desc = styled.p`
+  width: 90%;
   margin: 50px 0px;
   font-size: 20px;
   font-weight: 500;
