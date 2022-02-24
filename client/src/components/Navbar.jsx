@@ -7,7 +7,7 @@ import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
 const Container = styled.div`
-  height: 8vh;
+  height: 9vh;
   ${mobile({ height: "50px" })}
 `;
 
@@ -67,6 +67,7 @@ const MenuItem = styled.div`
   cursor: pointer;
   margin-left: 25px;
   color: #8f474d;
+  text-decoration: none;
   ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `;
 

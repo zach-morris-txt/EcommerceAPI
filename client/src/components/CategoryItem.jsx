@@ -10,7 +10,6 @@ const Container = styled.div`
 const Image = styled.img`
   width: 100%;
   height: 100%;
-  position: relative;
   object-fit: fill;
   ${mobile({ height: "20vh" })}
 
@@ -20,10 +19,9 @@ const Info = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: absolute;
   left: 0;
   width: 100%;
-  height: 54%;
+  height: 20vh;
   background-color: rgba(0,0,0,.6);
 `;
 
