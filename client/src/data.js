@@ -1,7 +1,7 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.youngchoppers.com%2F2020%2F04%2Fbell_revolver_evo_helmet.jpg&f=1&nofb=1",
+      img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fe.ridersdiscount.com%2Fgenerated%2F265%2F1%2F496265-vega-vr1-vr-1-solid-modular-motorcycle-riding-helmet-with-flip-up-chin-bar-black_1000_1000.jpg&f=1&nofb=1",
       title: "GEAR SALES",
       desc: "REFRESH YOUR LOOK AND SAVE DOING IT WITH OUR DEALS ON BOOTS, GLOVES, HELMETS!",
       bg: "75232a",

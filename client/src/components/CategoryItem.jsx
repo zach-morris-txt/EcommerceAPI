@@ -7,8 +7,8 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   flex: 1;
+  width: 22vw;
   margin: 3px;
-  position: relative;
 `;
 
 const Image = styled.img`
@@ -27,7 +27,7 @@ const Info = styled.div`
   position: absolute;
   left: 0;
   width: 100%;
-  height: 42%;
+  height: 54%;
   background-color: rgba(0,0,0,.6);
 `;
 
