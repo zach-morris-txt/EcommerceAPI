@@ -8,19 +8,19 @@ export const sliderItems = [
     },
     {
       id: 2,
-      img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.gLCrogY_zC2bSq-BGtiS9gHaJB%26pid%3DApi&f=1",
+      img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmodersvp.com%2Fwp-content%2Fuploads%2F2020%2F03%2Fwomens-leather-biker-jacket-in-black-product.png&f=1&nofb=1",
       title: "LEATHER SALES",
       desc: "DEALS ON GENUINE & FAUX LEATHERS!",
       bg: "753323",
     },
     {
       id: 3,
-      img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F91wiGaOVgxL._AC_UL1500_.jpg&f=1&nofb=1",
+      img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fapexcorsa.com.au%2Fwp-content%2Fuploads%2F2020%2F03%2FLYSCHY-Motorcycle-Jacket-Men-Winter-Waterproof-Motorbike-Riding-Chaqueta-Moto-Jacket-Motorcycle-Protective-Gear-Armor-Clothing-3.jpg&f=1&nofb=1",
       title: "WINTER SALES",
       desc: "DON'T COMPROMISE YOUR STYLE! GET 30% OFF FOR NEW ARRIVALS.",
       bg: "233175",
     },
-  ];
+];
 
 export const categories = [
     {
@@ -43,8 +43,8 @@ export const categories = [
     },
     {
       id: 1,
-      img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi5.walmartimages.com%2Fasr%2F28862137-4c65-4205-bc66-a44936d118f1_1.8557f8c41259e685dcf88d7385c360ed.jpeg&f=1&nofb=1",
-      title: "Pink Skull Helmet",
+      img: "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.esellerpro.com%2F2189%2FI%2F638%2F37%2F3882-MT-Thunder-Butterfly-Ladies-Motorcycle-Helmet-Purple-1600-3.jpg&f=1&nofb=1",
+      title: "Purple Butterfly Helmet",
       cat:"Helmets"
     },
     {

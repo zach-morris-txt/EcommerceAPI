@@ -12,19 +12,13 @@ const Container = styled.div`
   ${mobile({ padding: "0px", flexDirection:"column" })}
 `;
 
-const Item = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-`
 
 const Categories = () => {
   return (
     <Container>
-      <Item>
         {categories.map((item) => (
           <CategoryItem item={item} key={item.id} />
         ))}
-      </Item>
     </Container>
   );
 };
