@@ -3,10 +3,6 @@ import styled from "styled-components";
 import { mobile } from "../responsive";
 
 const Container = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex: 1;
   width: 22vw;
   margin: 3px;
 `;
