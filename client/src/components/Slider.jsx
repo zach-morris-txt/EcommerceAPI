@@ -74,6 +74,7 @@ const Desc = styled.p`
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 3px;
+  color: white;
 `;
 
 const Button = styled.button`
