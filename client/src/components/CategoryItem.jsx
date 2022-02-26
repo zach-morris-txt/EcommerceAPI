@@ -22,7 +22,7 @@ const Info = styled.div`
   left: 0;
   width: 100%;
   height: 20vh;
-  background-color: rgba(0,0,0,.6);
+  background-color: rgba(0,0,0,.8);
 `;
 
 const Title = styled.h1`
@@ -32,9 +32,11 @@ const Title = styled.h1`
 `;
 
 const Button = styled.button`
-    bottom: 0;
-    border:none;
+    bottom: 0px;
+    border: none;
     padding: 10px;
+    width: 90%;
+    text-decoration: none;
     background-color: white;
     color:gray;
     cursor: pointer;
@@ -44,7 +46,7 @@ const Button = styled.button`
 const CategoryItem = ({ item }) => {
   return (
     <Container>
-      <Link to={`/products/${item.cat}`} stye={{display: "flex", alignItem: "center", justifyContent: "center"}}>
+      <Link to={`/products/${item.cat}`} stye={{display: "flex", alignItem: "center", justifyContent: "center", textDecoration: "none"}}>
       <Image src={item.img} />
       <Info>
         <Title>{item.title}</Title>

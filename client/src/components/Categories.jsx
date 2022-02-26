@@ -8,7 +8,7 @@ const Container = styled.div`
   flex-wrap: wrap;
   align-items: center;
   margin: 32px 0px 18px 0px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   ${mobile({ padding: "0px", flexDirection:"column" })}
 `;
 
