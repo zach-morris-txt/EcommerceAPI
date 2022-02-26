@@ -12,7 +12,6 @@ const Image = styled.img`
   height: 100%;
   object-fit: fill;
   ${mobile({ height: "20vh" })}
-
 `;
 
 const Info = styled.div`
@@ -26,21 +25,21 @@ const Info = styled.div`
 `;
 
 const Title = styled.h1`
-    color:white;
-    margin: 0px 0px 20px 0px;
-    text-align: center;
+  color:white;
+  margin: 0px 0px 20px 0px;
+  text-align: center;
 `;
 
 const Button = styled.button`
-    bottom: 0px;
-    border: none;
-    padding: 10px;
-    width: 90%;
-    text-decoration: none;
-    background-color: white;
-    color:gray;
-    cursor: pointer;
-    font-weight: 600;
+  bottom: 0px;
+  border: none;
+  padding: 10px;
+  width: 90%;
+  text-decoration: none;
+  background-color: white;
+  color:gray;
+  cursor: pointer;
+  font-weight: 600;
 `;
 
 const CategoryItem = ({ item }) => {
