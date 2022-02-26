@@ -18,7 +18,6 @@ const Info = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  left: 0;
   width: 100%;
   height: 20vh;
   background-color: rgba(0,0,0,.8);
@@ -28,6 +27,7 @@ const Title = styled.h1`
   color:white;
   margin: 0px 0px 20px 0px;
   text-align: center;
+  text-decoration: none;
 `;
 
 const Button = styled.button`
@@ -36,23 +36,23 @@ const Button = styled.button`
   padding: 10px;
   width: 90%;
   text-decoration: none;
-  background-color: white;
-  color:gray;
+  background-color: #8f474d;
+  color: black;
   cursor: pointer;
   font-weight: 600;
 `;
 
 const CategoryItem = ({ item }) => {
   return (
-    <Container>
-      <Link to={`/products/${item.cat}`} stye={{display: "flex", alignItem: "center", justifyContent: "center", textDecoration: "none"}}>
-      <Image src={item.img} />
-      <Info>
-        <Title>{item.title}</Title>
-        <Button>SHOP NOW</Button>
-      </Info>
-      </Link>
-    </Container>
+    <Link to={`/products/${item.cat}`} stye={{display: "flex", alignItem: "center", justifyContent: "center", textDecoration: "none"}}>
+      <Container>
+        <Image src={item.img} />
+        <Info>
+          <Title>{item.title}</Title>
+          <Button>SHOP NOW</Button>
+        </Info>
+      </Container>
+    </Link>
   );
 };
 
