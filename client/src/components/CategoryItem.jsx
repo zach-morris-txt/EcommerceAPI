@@ -3,9 +3,6 @@ import styled from "styled-components";
 import { mobile } from "../responsive";
 
 const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   width: 22vw;
   margin: 3px;
 `;
@@ -20,11 +17,16 @@ const Image = styled.img`
 const Info = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   width: 100%;
   height: 20vh;
   background-color: rgba(0,0,0,.8);
 `;
+
+const Top = styled.div`
+
+`
 
 const Title = styled.h1`
   color:white;
@@ -34,7 +36,6 @@ const Title = styled.h1`
 `;
 
 const Button = styled.button`
-  bottom: 0px;
   border: none;
   padding: 10px;
   width: 90%;
@@ -47,11 +48,13 @@ const Button = styled.button`
 
 const CategoryItem = ({ item }) => {
   return (
-    <Link to={`/products/${item.cat}`} style={{display: "flex", alignItem: "center", justifyContent: "center", textDecoration: "none"}}>
+    <Link to={`/products/${item.cat}`} style={{display: "flex", justifyContent: "center", textDecoration: "none"}}>
       <Container>
         <Image src={item.img} />
         <Info>
-          <Title>{item.title}</Title>
+          <Top>
+            <Title>{item.title}</Title>
+          </Top>
           <Button>SHOP NOW</Button>
         </Info>
       </Container>
