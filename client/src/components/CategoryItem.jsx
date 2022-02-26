@@ -3,6 +3,9 @@ import styled from "styled-components";
 import { mobile } from "../responsive";
 
 const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 22vw;
   margin: 3px;
 `;
@@ -44,7 +47,7 @@ const Button = styled.button`
 
 const CategoryItem = ({ item }) => {
   return (
-    <Link to={`/products/${item.cat}`} stye={{display: "flex", alignItem: "center", justifyContent: "center", textDecoration: "none"}}>
+    <Link to={`/products/${item.cat}`} style={{display: "flex", alignItem: "center", justifyContent: "center", textDecoration: "none"}}>
       <Container>
         <Image src={item.img} />
         <Info>
