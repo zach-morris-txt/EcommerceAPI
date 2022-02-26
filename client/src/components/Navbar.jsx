@@ -58,12 +58,13 @@ const Right = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   justify-content: flex-end;
+  position: relative;
   ${mobile({ flex: 2, justifyContent: "center" })}
 `;
 
 const MenuItem = styled.div`
+  position: absolute;
   bottom: 0px;
   font-size: 16px;
   cursor: pointer;

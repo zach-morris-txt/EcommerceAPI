@@ -8,8 +8,7 @@ const Container = styled.div`
 `;
 
 const Image = styled.img`
-  width: 100%;
-  height: 100%;
+  width: 21vw;
   object-fit: fill;
   ${mobile({ height: "20vh" })}
 `;
@@ -25,7 +24,7 @@ const Info = styled.div`
 `;
 
 const Top = styled.div`
-
+  height: 80%;
 `
 
 const Title = styled.h1`
@@ -39,6 +38,7 @@ const Button = styled.button`
   border: none;
   padding: 10px;
   width: 90%;
+  height: 20%;
   text-decoration: none;
   background-color: #8f474d;
   color: black;
