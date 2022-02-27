@@ -24,7 +24,7 @@ const Info = styled.div`
 `;
 
 const Top = styled.div`
-  height: 70%;
+  height: 65%;
 `
 
 const Title = styled.h1`
@@ -38,7 +38,7 @@ const Button = styled.button`
   border: none;
   padding: 10px;
   width: 90%;
-  height: 20%;
+  height: 25%;
   text-decoration: none;
   background-color: #8f474d;
   color: black;
