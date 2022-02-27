@@ -24,7 +24,7 @@ const Info = styled.div`
 `;
 
 const Top = styled.div`
-  height: 65%;
+  height: 62%;
 `
 
 const Title = styled.h1`
