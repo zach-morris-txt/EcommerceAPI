@@ -9,6 +9,7 @@ const Container = styled.div`
 
 const Image = styled.img`
   width: 21vw;
+  height: 21vw;
   object-fit: fill;
   ${mobile({ height: "20vh" })}
 `;
@@ -36,7 +37,6 @@ const Title = styled.h1`
 
 const Button = styled.button`
   border: none;
-  padding: 10px;
   width: 90%;
   height: 28%;
   text-decoration: none;
