@@ -4,6 +4,7 @@ https://ecommerce-backend--api.herokuapp.com/
 
 <h3>[Tech Stack]</h3>
 • CryptoJS
-• JWT 
+• JWT
+• Mongoose (MongoDB)
 • Redux
 • Stripe
